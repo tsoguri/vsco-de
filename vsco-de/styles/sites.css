@@ -1,0 +1,303 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(99,99,99);
+}
+h1{
+    font-weight: 800;
+    font-size: 50px;
+    padding: 10px;
+}
+h2{
+    font-weight: 600;
+}
+#nav_icon {
+    width:4%;
+    position: absolute;
+    top:40px;
+    left: 4%;
+}
+#upload_icon{
+    width:4%;
+    position: absolute;
+    top: 40px;
+    left: 92%;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    margin: 8%;
+}
+
+.gallery li{
+    list-style-type: none;
+}
+.index_container{
+    width: 84%;
+    overflow: hidden;
+    margin: 8%;
+}
+.nav_container{
+    width: 20%;
+    float: left;
+    background-color: rgb(99,99,99);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.gallery_container{
+    margin-left: 20%;
+}
+.nav_container ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.nav_container li{
+    list-style-type: none;
+    padding: 5px;
+}
+.taglink:hover{
+    color: lightblue;
+}
+.taglink{
+    color: white;
+}
+.navgallery{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+}
+.navgallery li{
+    list-style-type: none;
+}
+
+.gallery_images{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.upload{
+    margin: auto;
+    width: 500px;
+}
+.form_feedback{
+    display: inline-block;
+    align-items: center;
+}
+#upload_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 200px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+input[type=file]{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 84%;
+}
+.upload_file{
+    padding: 5px;
+    flex: 1 1 auto;
+    width: 70%;
+}
+.upload_file:hover{
+    border-style: solid;
+    background-color: rgb(240, 240,240);
+    border-color: rgb(240, 240,240);
+    border-width: thin;
+    border-radius: 5px;
+}
+#img_icon{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.upload_input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+    flex: 1 1 auto;
+    width: 70%;
+}
+.upload_label{
+    width: 30%;
+    padding-right: 10px;
+    text-align: right;
+}
+input[type=date]{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(99,99,99);
+}
+.input_submit{
+    margin-left: 72%;
+    display: flex;
+    align-items: right;
+    margin-bottom: 20px;
+}
+#go{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    flex: 1 1 auto;
+    background-color: white;
+    border: none;
+    color: rgb(99, 99,99);
+}
+#go:hover{
+    border-style: solid;
+    background-color: rgb(240, 240,240);
+    border-color: rgb(240, 240,240);
+    border-width: thin;
+    border-radius: 5px;
+}
+#go_icon{
+    height: 40px;
+    width: 40px;
+    text-align: right;
+}
+.page_heading{
+    margin-top: 200px;
+    text-align: center;
+}
+.delete_heading{
+    margin-top: 200px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.no_tag{
+    line-height: 60px;
+}
+.tagtitle{
+    margin-top: 200px;
+}
+
+.image{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 700px;
+    width: auto;
+    overflow: hidden;
+}
+.image_edittag{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 700px;
+    width: auto;
+    overflow: hidden;
+}
+.image_description{
+    line-height: 10px;
+    font-style: italic;
+}
+.tagdetailslink:hover{
+    color: lightblue;
+}
+.tagdetailslink{
+    color: rgb(99,99,99);
+    vertical-align:middle;
+}
+.tagdetails{
+    display: inline-block;
+    margin-top: 0px;
+}
+.delete_tag{
+    line-height: 30px;
+}
+.form_feedback{
+    color: red;
+}
+.image_submission{
+    margin-top: 25px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 700px;
+}
+
+.icon_btn{
+    background-color: white;
+    border: none;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.icon_btn :hover{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(240, 240,240);
+}
+.tag_icon{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.icon_caption{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 10px;
+    color: rgb(99, 99, 99);
+    vertical-align: middle;
+}
+.edit_form{
+    display: inline-block;
+}
+.edit_image{
+   margin-bottom: 200px;
+}
+#delete_upload{
+    color: rgb(99, 99, 99);
+}
+#delete_upload:hover{
+    color: lightblue;
+}
+.add_tag{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color:rgb(99, 99, 99);
+    width: 120px;
+    margin-top:10px;
+    margin-bottom: 25px;
+    align-items:center;
+}
+.single_image{
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
