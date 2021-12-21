@@ -2,6 +2,8 @@
 
 ## A way to visualize your photos, formatted, sorted, personalized.
 
+![]photo-home.png ![]photo-tags.png ![]photo-indiv.png ![]photo-upload.png 
+
 ### Gallery Step-by-Step Instructions
 
 Viewing all images in your gallery:
